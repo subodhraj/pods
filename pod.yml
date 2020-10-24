@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: webappl
+spec:
+  container: 
+  - name: webappl
+    image: dockersubodh/angular
+ 
